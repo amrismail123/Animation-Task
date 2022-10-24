@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 2000px;
+    background-color: rgb(202, 200, 200);
+    overflow-x: hidden;
+}
+.div1{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-delay: 1s;    
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+@keyframes move{
+   0%{left:0%;}
+   
+   100%{left: 85%;}
+}
+.parent2{
+    position: relative;
+}
+.div2{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    margin-top: 155px;
+    animation-name: change;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    transform: translateX(1414.5px);
+}
+@keyframes change{
+    0%{right: 0%;}
+
+    100%{right:170%;}
+}
+.parent3{
+    position: relative;
+}
+.div3{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    margin-top: 310px;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-delay: 5s;    
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes move{
+   0%{left:0%;}
+   
+   100%{left: 85%;}
+}
+.parent4{
+    position: relative;
+}
+.div4{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    margin-top: 480px;
+    animation-name: change;
+    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    transform: translateX(1414.5px);
+}
+@keyframes change{
+    0%{right: 0%;}
+
+    100%{right:170%;}
+}
+.parent5{
+    position: relative;
+}
+.div5{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    margin-top: 640px;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-delay: 9s;    
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+@keyframes move{
+   0%{left:0%;}
+   
+   100%{left: 85%;}
+}
+.parent6{
+    position: relative;
+}
+.div6{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    margin-top: 800px;
+    animation-name: change;
+    animation-duration: 2s;
+    animation-delay: 11s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    transform: translateX(1414.5px);
+}
+@keyframes change{
+    0%{right: 0%;}
+
+    100%{right:170%;}
+}
+.parent7{
+    position: relative;
+}
+.div7{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    margin-top: 960px;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-delay: 13s;    
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+@keyframes move{
+   0%{left:0%;}
+   
+   100%{left: 85%;}
+}
+.parent8{
+    position: relative;
+}
+.div8{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    margin-top: 1120px;
+    animation-name: change;
+    animation-duration: 2s;
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    transform: translateX(1414.5px);
+}
+@keyframes change{
+    0%{right: 0%;}
+
+    100%{right:170%;}
+}
